@@ -104,3 +104,7 @@ section ul li:not(:last-child) {
 section ul {
     margin: 0 -2em;
 }
+
+button:hover{
+    cursor: pointer;
+}

@@ -42,7 +42,7 @@ function addLog() {
   newEm.innerText = description;
   newLi.classList.add(className);
 
-  newLi.prepend(newStrong, newSpan, newEm);
+  newLi.prepend(newStrong);
   newLi.prepend(newSpan);
   newLi.prepend(newEm);
   ul.prepend(newLi);
